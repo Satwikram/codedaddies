@@ -76,11 +76,8 @@ WSGI_APPLICATION = 'codedaddies.wsgi.application'
 
 DATABASES = {
     'default': {
-        'ENGINE': 'django.db.backends.postgresql',
-        'NAME': 'codedaddies',
-        'HOST': 'localhost',
-        'PASSWORD': 'pass6671',
-        'USER': 'postgres'
+        'ENGINE': 'django.db.backends.sqlite3',
+        'NAME': os.path.join(BASE_DIR, 'db.sqlite3')
     }
 }
 
