@@ -82,11 +82,11 @@ six==1.15.0
 sklearn==0.0
 soupsieve==2.0.1
 sqlparse==0.3.1
-tensorboard==2.1.0
-tensorflow==2.1.0
-tensorflow-datasets==3.2.1
-tensorflow-estimator==2.1.0
-tensorflow-metadata==0.22.2
+#tensorboard==2.1.0
+#tensorflow==2.1.0
+#tensorflow-datasets==3.2.1
+#tensorflow-estimator==2.1.0
+#tensorflow-metadata==0.22.2
 termcolor==1.1.0
 threadpoolctl==2.1.0
 tifffile==2020.7.24
