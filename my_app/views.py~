@@ -47,7 +47,7 @@ def search(request):
 
         context = {
             'search': search,
-            'final_postings': final_postings
+            'final_postings': final_postings,
         }
         return render(request, 'search.html', context)
     else:
